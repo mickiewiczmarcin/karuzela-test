@@ -1,0 +1,25 @@
+=height-carousel($height)
+	height: $height
+=width-carousel($width)
+	width: $width
+.center
+	display: flex
+	justify-content: center
+	align-items: center
+	#carousel
+		+height-carousel(300px)
+		+width-carousel(433px)
+		border-style: solid
+		overflow: hidden
+		float: left
+		ul
+			display: flex
+			list-style-type: none
+			padding: 0
+			margin: 0
+			width: calc(5 * 433px)
+			float: left
+			li
+				line-height: 0
+				img
+					+height-carousel(300px)
