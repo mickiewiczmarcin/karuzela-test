@@ -3,8 +3,8 @@
   justify-content: center;
   align-items: center; }
   .center #carousel {
-    height: 300px;
-    width: 433px;
+    height: 346px;
+    width: 500px;
     border-style: solid;
     overflow: hidden;
     float: left; }
@@ -13,9 +13,9 @@
       list-style-type: none;
       padding: 0;
       margin: 0;
-      width: calc(5 * 433px);
+      width: calc(5 * 500px);
       float: left; }
       .center #carousel ul li {
         line-height: 0; }
         .center #carousel ul li img {
-          height: 300px; }
+          height: 346px; }
